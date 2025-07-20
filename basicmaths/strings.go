@@ -40,3 +40,40 @@ func DivTwoNumber(a, b int) (int, error) {
 func GanerateRandNumber(a int) int {
 	return rand.Intn(a)
 }
+
+func NumberToWords(i int) string {
+	fmt.Println("writr ", i, "as")
+	var wrd string
+	switch i {
+	case 1:
+		wrd = "One"
+		fmt.Println(wrd)
+	case 2:
+		wrd = "two"
+		fmt.Println(wrd)
+	case 3:
+		wrd = "three"
+		fmt.Println(wrd)
+	case 4:
+		wrd = "four"
+		fmt.Println(wrd)
+	case 5:
+		wrd = "five"
+		fmt.Println(wrd)
+	case 6:
+		wrd = "six"
+		fmt.Println(wrd)
+	case 7:
+		wrd = "seven"
+		fmt.Println(wrd)
+	case 8:
+		fmt.Println(wrd)
+	case 9:
+		wrd = "nine"
+		fmt.Println(wrd)
+	case 10:
+		wrd = "ten"
+		fmt.Println(wrd)
+	}
+	return wrd
+}
