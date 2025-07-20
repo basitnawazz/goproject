@@ -6,6 +6,7 @@ package main
 import (
 	"fmt"
 	"learingo/basicmaths"
+	"learingo/basicmaths/learingstruct"
 	"learingo/stringman"
 )
 
@@ -30,5 +31,9 @@ func main() {
 	fmt.Println(basicmaths.SubtwoNumbers(70, 100))
 
 	fmt.Println(basicmaths.MulTwoNumber(4, 55))
+
+	fmt.Println(learingstruct.NewCar("BMW", "Petrol", "m4", 5))
+
+	basicmaths.NumberToWords(9)
 
 }
