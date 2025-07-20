@@ -13,14 +13,22 @@ func main() {
 	sum := basicmaths.AddTwoNumber(34, 9685)
 	fmt.Println(sum)
 
-	sub := basicmaths.SubtwoNumbers(44, 66)
-	fmt.Println(sub)
+	// basicmaths.SubtwoNumbers(3, 78)
+	// // fmt.Println(sub)
 
-	fmt.Println(sub + sum)
+	// fmt.Println(sub + sum)
 
-	mul := basicmaths.MulTwoNumber(8, 88)
-	fmt.Println(mul)
+	fmt.Println(basicmaths.MulTwoNumber(0, 88))
 
 	fullname := stringman.AddLastnameFirstname("basit", "nawaz")
 	fmt.Println(fullname)
+
+	basicmaths.DivTwoNumber(7, 3)
+
+	fmt.Println(basicmaths.GanerateRandNumber(70))
+
+	fmt.Println(basicmaths.SubtwoNumbers(70, 100))
+
+	fmt.Println(basicmaths.MulTwoNumber(4, 55))
+
 }
